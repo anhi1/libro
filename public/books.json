@@ -1,0 +1,54 @@
+{
+  "books":[  
+    {
+      "id": 1,
+      "title": "El Señor de los Anillos",
+      "release": "2023-04-29T22:00:00.000Z",
+      "sinopsis": "at vulputate vitae nisl aenean lectus pellentesque eget nunc donec",
+      "numPages": 408,
+      "author": "J.R.R. Tolkien",
+      "photo": "https://covers.openlibrary.org/b/isbn/9780385533225-L.jpg",
+      "genre": "Fantasía"
+    },
+    {
+      "id": 2,
+      "title": "Cien años de soledad",
+      "release": "2023-04-29T22:00:00.000Z",
+      "sinopsis": "at vulputate vitae nisl aenean lectus pellentesque eget nunc donec",
+      "numPages": 300,
+      "author": "Gabriel García Márquez",
+      "photo": "https://covers.openlibrary.org/b/isbn/9780385533225-L.jpg",
+      "genre": "Realismo mágico"
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "release": "2023-04-29T22:00:00.000Z",
+      "sinopsis": "at vulputate vitae nisl aenean lectus pellentesque eget nunc donec",
+      "numPages": 200,
+      "author": "George Orwell",
+      "photo": "https://covers.openlibrary.org/b/isbn/9780385533225-L.jpg",
+      "genre": "Distopía"
+    },
+    {
+      "id": 4,
+      "title": "Matar un ruiseñor",
+      "release": "2023-04-29T22:00:00.000Z",
+      "sinopsis": "at vulputate vitae nisl aenean lectus pellentesque eget nunc donec",
+      "numPages": 408,
+      "author": "Harper Lee",
+      "photo": "https://covers.openlibrary.org/b/isbn/9780385533225-L.jpg",
+      "genre": "Ficción histórica"
+    },
+    {
+      "id": 5,
+      "title": "La luz de Sorolla",
+      "release": "2023-04-29T22:00:00.000Z",
+      "sinopsis": "at vulputate vitae nisl aenean lectus pellentesque eget nunc donec",
+      "numPages": 150,
+      "author": "Joaquín Sorolla",
+      "photo": "https://www.hangel.es/wp-content/uploads/2021/04/Portada-la-luz-de-sorolla.jpg",
+      "genre": "Arte"
+    }
+  ]
+}
