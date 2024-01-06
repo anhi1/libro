@@ -1,7 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import { montserrat } from "./font";
 
 
 export const metadata = {
@@ -12,9 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        
-
+      <head>
+        <link rel="stylesheet" href="https://bootswatch.com/litera/"/>
+      </head>
+      <body className={`${montserrat.className} antialiased`}>
         <Navbar/>
         {children}
       </body>
