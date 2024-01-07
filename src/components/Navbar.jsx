@@ -1,6 +1,7 @@
 
 import Link from "next/link";
-import Image from "next/image";
+import { LuHeadphones } from "react-icons/lu"; //icono
+
 
 function Navbar() {
   return (
@@ -21,7 +22,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/spotify">
-                Spotify
+              <LuHeadphones className="w-5 h-5"/>Spotify
               </Link>
             </li>
           </ul>

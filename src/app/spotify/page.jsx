@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
+
 function Spotify() {
   const [cancion, setCancion] = useState(""); //-----------(1)
   const [canciones, setCanciones] = useState([])
@@ -47,15 +48,27 @@ function Spotify() {
          <button type="submit">Buscar</button> {/*este boton BUSCAR activa el evento onSubmit---(2) */}
       </form>
 
-      {canciones.map((cancion, index) => (
-          <div key={index}>
-            <img src={cancion.data.albumOfTrack.coverArt.sources[0].url} alt="imagen"/>
-            <h2>{cancion.data.name}</h2>
-            <Link href={cancion.data.uri}><button>Play</button></Link>
-          </div>
-        
-      ))}
+      <ul className='list-group'>
+    {canciones.map((cancion, index) => (
+      <li key={index}
+      className='list-group-item d-flex justify-content-between align-items-center list-group-item-action'>
+      <img src={cancion.data.albumOfTrack.coverArt.sources[0].url} alt={cancion.imagen} style={{width:"60px", borderRadius:"50%"}}/>
+      <p><strong>Canción:</strong> {cancion.data.name}</p>
+      <Link href={cancion.data.uri}><button type="button" class="btn btn-light">Play</button></Link>
+      </li>
+    ))}
+  </ul>
+      
+     
+      
     </>
   );
 }
 export default Spotify;
+
+// {canciones.map((cancion, index) => (
+//           <div key={index}>
+//             <img src={cancion.data.albumOfTrack.coverArt.sources[0].url} alt="imagen"/>
+//             <h2>{cancion.data.name}</h2>
+//             <Link href={cancion.data.uri}><button>Play</button></Link>
+//           </div>
