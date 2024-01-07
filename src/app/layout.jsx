@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${montserrat.className} antialiased`}>
         <Navbar/>
-        {children}
+      <div className="container p-4">{children}</div>  
       </body>
     </html>
   );

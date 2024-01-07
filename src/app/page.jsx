@@ -32,11 +32,8 @@ const IndexPage = () => { //async function IndexPage()
     getBooks();
   }, []);
 
-  return (
-    <div>
-       <Books books={books}/>
-    </div>
-  )
+  return <Books books={books}/>
+ 
 }
 
 export default IndexPage;
