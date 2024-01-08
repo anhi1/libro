@@ -1,6 +1,6 @@
 
 
-function About(){
+function Favoritos(){
 return(
     <div>
         <h1>About</h1>

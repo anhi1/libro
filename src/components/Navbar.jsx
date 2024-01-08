@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import { LuHeadphones } from "react-icons/lu"; //icono
-
+import { LuHeart } from "react-icons/lu";
 
 function Navbar() {
   return (
@@ -16,8 +16,8 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" href="/about">
-                About
+              <Link className="nav-link" href="/favoritos">
+              <LuHeart /> Favoritos
               </Link>
             </li>
             <li className="nav-item">
