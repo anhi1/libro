@@ -12,12 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="stylesheet" href="https://bootswatch.com/litera/"/>
-      </head>
-      <body className={`${montserrat.className} antialiased`}>
+      
+      <body className={`${montserrat.className} antialiased`} style={{background:'var(--color-secondary)'}} >
         <Navbar/>
-      <div className="container p-4">{children}</div>  
+      <div className="container pt-4">{children}</div>  
       </body>
     </html>
   );

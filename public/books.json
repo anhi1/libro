@@ -1,7 +1,27 @@
 {
-  "books":[  
+  "books":[ 
     {
       "id": 1,
+      "photo": "https://m.media-amazon.com/images/I/61Xtp2n7omL._AC_UF894,1000_QL80_.jpg",
+      "title": "Aprendiendo React",
+      "author": "Carlos Azaustre",
+      "release": "2023",
+      "genre": "", 
+      "pages": 286,
+      "sinopsis": "Este libro te guiará a través de la configuración del entorno de desarrollo, la creación de proyectos, la comprensión de los componentes, el manejo de eventos y el ciclo de vida de los componentes. En secciones posteriores, abordarás temas más complejos como la gestión del estado global, el enrutamiento, los estilos, el consumo de APIs y la optimización del rendimiento."
+    },
+    {
+      "id": 2,
+      "photo": "https://m.media-amazon.com/images/I/418px5SE6nL._SX342_SY445_.jpg",
+      "title": "Aprendiendo Javascript",
+      "author": "Carlos Azaustre",
+      "release": "2023",
+      "genre": "", 
+      "pages": 200,
+      "sinopsis": "Este libro te guiará a través de la configuración del entorno de desarrollo, la creación de proyectos, la comprensión de los componentes, el manejo de eventos y el ciclo de vida de los componentes. En secciones posteriores, abordarás temas más complejos como la gestión del estado global, el enrutamiento, los estilos, el consumo de APIs y la optimización del rendimiento."
+    },
+    {
+      "id": 3,
       "photo": "https://imagessl3.casadellibro.com/a/l/s7/33/9788433916433.webp",
       "title": "Yo soy el monstruo que os habla. Informe para una academia de psicoanalistas",
       "author": "Paul B. Preciado",
@@ -11,7 +31,7 @@
       "sinopsis": "El psicoanálisis enfrentado a una decisión clave: seguir con los modelos caducos o abrirse a los nuevos planteamientos de la radicalidad político-sexual. En diciembre de 2019 Paul B. Preciado pronunció un discurso ante 3.500 psicoanalistas reunidos para las jornadas internacionales de l'École de la Cause Freudienne en París. Les planteó la disyuntiva ante la que se encuentra el psicoanálisis: continuar trabajando con la antigua epistemología de la diferencia sexual y validar de este modo el régimen patriarco-colonial que la sustenta, haciéndose por tanto responsable de la violencia que este produce, o bien abrirse a un proceso de crítica política de sus lenguajes y de sus prácticas y confrontarse a la nueva alianza necropolítica del patriarcado-colonial y las nuevas tecnologías farmacopornográficas."
     },
     {
-      "id": 2,
+      "id": 4,
       "photo": "https://imagessl0.casadellibro.com/a/l/s7/30/9788433940230.webp",
       "title": "Un apartamento en Urano: Crónicas del cruce",
       "author": "Paul B. Preciado",
@@ -21,7 +41,7 @@
       "sinopsis": "Prólogo de Virginie Despentes. Urano, el gigante helado, es el planeta más frío del sistema solar, y también un dios de la mitología griega. Urano da además nombre al uranismo, concepto forjado por el primer activista sexual europeo, Karl-Heinrich Ulrichs, en 1864 para definir el «tercer sexo». Paul B. Preciado sueña con un apartamento en Urano donde vivir fuera de las relaciones de poder y de las taxonomías sexuales, de género y raciales que la modernidad ha inventado. «Mi condición trans», dice el author, «es una nueva forma de uranismo. No soy un hombre. No soy una mujer. No soy heterosexual. No soy homosexual. Soy un disidente del sistema sexo-género. Soy la multiplicidad del cosmos encerrada en un régimen epistemológico y político binario, gritando delante de ustedes. Soy un uranista en los confines del capitalismo tecnocientífico.» En este libro, que reúne una extensa serie de «crónicas del cruce», relata su proceso de transformación de Beatriz en Paul B., donde las hormonas y el cambio de nombre legal son tan importantes como la escritura. Esta no es solo la crónica de una transición de género, sino también la de una transición planetaria: Preciado analiza otros procesos de mutación política, cultural y sexual, abordando temas diversos, como el procés catalán, el zapatismo en México, la crisis griega, la América de Trump, las nuevas formas de violencia masculina, la apropiación tecnológica del útero, la figura de Assange, el trabajo sexual, el acoso a niños trans o el papel de los museos como motores de una revolución cultural posible. Paul B. Preciado cuestiona las normas políticas y las fronteras, escruta las estructuras sociales establecidas y las pone en jaque en unos textos que tienen la contundencia de la proclama, y una estimulante radicalidad formal que también cuestiona los límites de lo literario. Este es un libro valiente, transgresor y necesario que parte de una experiencia personal para cuestionar los fundamentos de una sociedad que excluye la heterodoxia, la problematiza y la convierte en enfermedad. Este es un libro escrito desde la frontera, desde una lúcida radicalidad queer, que busca liberar el cuerpo y la mente de ataduras morales y restricciones políticas."
     },    
     {
-      "id": 3,
+      "id": 5,
       "photo": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1687515451i/180188313.jpg",
       "title": "Me lo merezco: Historias de ternura, sanación y buenos tratos",
       "author": "Anita Doinel",
@@ -31,7 +51,7 @@
       "sinopsis": "¿Cómo se relacionan la gordofobia y la violencia sexual? ¿Por qué me siento sucia después de follar? ¿Por qué no fui capaz de defenderme? ¿Quién soy sin la aprobación de los hombres? ¿Por qué me siento 'mala' al desear a otras mujeres? ¿Es normal necesitar tanto amor? ¿Estoy estancada o estoy sobreviviendo? ¿Qué es eso de la responsabilidad afectiva? ¿Dónde estamos las poliamorosas 'locas'? ¿Estoy rota?\nMe lo merezco: historias de ternura, sanación y buenos tratos es un relato inclasificable y crudo. A medio camino entre el ensayo y la autobiografía, encapsula momentos de trauma, violencia, ternura y sanación.\nDecidida a poner sobre la mesa conversaciones incómodas, Anita habla en primera persona sobre violencia sexual y autodestrucción, aportando una mirada feminista y superviviente a temas como el abuso infantil, la gordofobia, la autocosificación, las no monogamias, el deseo, las cancelaciones, el perdón, la bifobia y la mirada masculina. A través de un inventario de dolorosas miserias y dulces victorias, recibimos el mensaje más importante: las heridas nos atraviesan colectivamente; ni somos raras ni estamos solas en nuestro sufrimiento."
     },
     {
-      "id": 4,
+      "id": 6,
       "photo": "https://almanegralibreria.com/wp-content/uploads/2021/07/Pelos-y-hogares.jpeg",
       "title": "Pelos y hogares. Poemario Trans*",
       "author": "Bruno Cimiano",
@@ -41,7 +61,7 @@
       "sinopsis": "Me siento el maldito conejo de Alicia. ¿De qué corres, a dónde vas?\n«¿Qué sería del mundo sin la escritura que brota del cuerpo en transición? ¿Podríamos imaginar un mundo? Esto es un poemario en el cual Bruno nos invita a hacer de las letras, piel. Y de la piel, acción. Entre metáforas, historias vividas, así como un sinfín de imaginaciones, el author inicia un ciclo de escritura trans*figurada que disloca normatividades literarias y estéticas plasmada en papel.\nEscribir con las propias manos supone un acto político que hace de las escrituras trans* una posibilidad de fuga, una auto-etnografía y archivo. Durante mucho tiempo en la historia del cuerpo, la escritura ha estado limitada a cánones atravesados por un sistema cisnormativo que ha invisibilizado a las identidades trans*. Sin embargo, como nos comparte el author, el riesgo se toma y las letras hacen una espiral: tiempo, forma y contenido. Traducción: la vida misma»."
     },
     {
-      "id": 5,
+      "id": 7,
       "photo": "https://traficantes.net/sites/default/files/book_covers//9788412395693.gif",
       "title": "Por si se te olvida. Memorias y desmemorias Trans*",
       "author": "Bruno Cimiano",
@@ -51,7 +71,7 @@
       "sinopsis": "Es una sensación muy emocionante abrir un libro y encontrarte con las palabras que dan entrada a lo que puede ser el mundo que estás buscando. Si pudiera decir 10 que te vas a encontrar, diría que son los cimientos de una casa. Lo que la sostienen y evitan el derrumbe, eso que no se ve a simple vista pero que se desvela cada vez que habitamos un espacio y abrimos nuestros oídos. Esta antología poética nos invita, a través de su sublime seducción a encontrarnos con un viaje de escritura que se multiplica a sí mismo y que plasma su esencia, su intensidad, sus riesgos y búsquedas, ¿cuántos Brunos? ¿Brunos, cuántos?. Sin duda alguna el olvido ha hecho que la memoria sea posible, pues es a través de obras como ésta que nos atrevemos a convertir nuestros recuerdos en archivos vivientes que se harán posibles a través de nuestra piel y es que la poesía trans nos recuerda una y otra vez que la piel es el lienzo que dilata el tiempo de la palabra y lo que la mantiene viva. Nos atrevemos al archivo cuando dejamos vestigios de lo que fuimos, somos y seremos, así, colectivamente, porque el escritor que da vida a lo que hoy tienes entre tus manos, memorias y desmemorias trans, habita en ti, por si se te olvida."
     },
     {
-      "id": 6,
+      "id": 8,
       "photo": "https://imagessl9.casadellibro.com/a/l/s7/59/9788412441659.webp",
       "title": "Todo era por ser fuego. Poemas de chulos, trans y travestis",
       "author": "Roberta Marrero",
@@ -62,7 +82,7 @@
     },
     
       {
-        "id": 7,
+        "id": 9,
         "photo": "https://diariofemenino.com.ar/df/wp-content/uploads/2023/07/bell-3.jpg",
         "title": "Otras inapropiables: Feminismos desde las fronteras",
         "author": "Bell Hooks, Gloria Anzaldúa",
@@ -72,7 +92,7 @@
         "sinopsis": "«Inapropiadas/inapropiables, desubicadas en los mapas disponibles de la identidad y la política, sin poder adoptar ni la máscara del 'yo' ni la del 'otro' de las narrativas occidentales modernas. Fronterizas, intrusas, extranjeras, de conciencia antagonista y diferencial reclaman el privilegio sin garantías de partir de posiciones sociales múltiples y contradictorias en cuya tensión y conflicto se producen unos conocimientos y prácticas políticas reflexivas y críticas que se escapan de la autocomplacencia y las narrativas universales. Posiciones que declarándose mestizas e impuras, parciales y situadas, no se encaraman ni en la seguridad romántica de una pretendida pureza identitaria, ni en supuestos universalismos homogeneizadores sustentados en un capitalismo heteropatriarcal racialmente estructurado. Trabajando desde la articulación no reductora de múltiples y diferentes diferencias constitutivas de género, 'raza'/etnicidad, sexualidad, clase, nacionalidad, los textos recogidos en este volumen evitan los planteamientos que jerarquizan y fijan a priori las posiciones unitarias de víctimas y opresores como elementos necesariamente excluyentes»."
       },
       {
-        "id": 8,
+        "id": 10,
         "photo": "https://imagessl7.casadellibro.com/a/l/s5/97/9788496614697.webp",
         "title": "Devenir perra",
         "author": "Itziar Ziga",
@@ -82,7 +102,7 @@
         "sinopsis": "A Itziar Ziga le gustan las boas de plumas, en ocasiones se disfraza de camionero, y en otras se autodenomina perra. Este libro, escrito en primera persona desde la voz deslenguada y agreste de una guerrillera incombustible, da fe de ese instante de iluminación en el que el activismo se reviste de lucha divertida y desacomplejada, batalla campal de ideas, gritos estridentes y anormales, reivindicación brutal de lo que queda al margen de una sociedad que castra y condena. La libertad y el entusiasmo de Ziga son rabiosamente contagiosos, así como terribles y esclarecedores. Cuando ya no importa ser hombre o mujer, cuando esta distinción se convierte en irrisoria, el flujo de pensamiento campa a sus anchas y dinamita cualquier discurso hegemónico y bienpensante. En estas coordenadas se mueve la authora de Devenir perra: sin patria ni Dios; con puños, lentejuelas y bastante mala baba."
       },
       {
-        "id": 9,
+        "id": 11,
         "photo": "https://m.media-amazon.com/images/I/81gKcYUe9cL._SY466_.jpg",
         "title": "Del armario al escenario: la ópera gay; divas, castrados, compositores y otras coloraturas",
         "author": "Adolfo Planet",
@@ -92,7 +112,7 @@
         "sinopsis": "¿Es la ópera gay? ¿Es gay el gusto por la Callas o por Pavarotti? ¿Quién se oculta en el armario operístico? Del armario al escenario: la ópera gay es el primer texto editado en castellano que da unainterpretación en clave homosexual al mundo de la ópera, a los cantantes de ópera y a los compositores de ópera (Lully, Hándel, Bellini, Verdi, Wagner, Tchaikovski, Falla, Brítten, etc.I, y que selecciona unrepertorio básico de óperas gays y lésbicas. El misterio de la voz cantada y la influencia del sexo y la testosterona sobre ella, la «fabricación» de los castrados, el travestismo en la ópera o la historia de la mayordiva de todos los tiempos, Adelina Patti, nacida en pleno barrio de Chueca, son algunas de las cuestiones que se revisan, así como el paso humillante de María Callas por la sociedad franquista, el enclave gay de los festivales de Bayreuth durante el nazismo y los «escandalosos» montajes escénicos actuales, que pretenden insuflar nueva vida a esta «reliquia del pasado». En España la ópera vive en la actualidad surenacer, tras un largo periodo de decadencia, y desde los grandes centros operísticos estatales se lucha por desmontar la photo elitista y cara de este arte, que desde su origen ha tenido la vocación de ser tanpopular como el fútbol, porque habla de pasiones humanas universales. En este libro se intenta contribuir a ese esfuerzo desde la perspectiva gay-lésbica y con un texto asequible al público no iniciado."
       },
       {
-        "id": 10,
+        "id": 12,
         "photo": "https://m.media-amazon.com/images/I/81D1lgHhV1L._SY466_.jpg",
         "title": "María Martínez Sierra: Feminismo y música",
         "author": "Juan Aguilera Sastre",
@@ -102,7 +122,7 @@
         "sinopsis": "III Jornadas sobre María Lejárraga. Logroño, 24-27 de octubre y 14-17 de noviembre de 2005. Los trabajos aquí recogidos, firmados por especialistas de reconocido prestigio, evidencian, una vez más, la altura alcanzada por María Lejárraga en los dos ámbitos estudiados, el feminismo y la música, a la vez que proponen lecturas novedosas y visiones globales de sus planteamientos teóricos y de algunas de sus actividades más relevantes."
       },
       {
-        "id": 11,
+        "id": 13,
         "photo": "https://imagessl6.casadellibro.com/a/l/s5/56/9788466337656.webp",
         "title": "La carne",
         "author": "Rosa Montero",
@@ -112,7 +132,7 @@
         "sinopsis": "Una intriga emocional que nos habla del paso del tiempo, del miedo a la  muerte, del fracaso pero también de la esperanza, de la necesidad de  amar y de la gloriosa tiranía del sexo, de la vida entendida como un lance fugaz en el que devorar o ser devorado. PREMIO NACIONAL DE LAS LETRAS 2017. «Al final todo acaba por desembocar en el amor. Y en el daño.» Una noche de ópera, Soledad contrata a un gigoló para que la acompañe a  la función y así poder dar celos a un examante. Pero un suceso violento  e imprevisto lo complica todo y marca el inicio de una relación  inquietante, volcánica y tal vez peligrosa. Ella tiene sesenta años; el gigoló, treinta y dos. Desde el humor, pero también desde la rabia y la desesperación de quien  se rebela contra los estragos del tiempo, el relato de la vida de  Soledad se entreteje con las historias de los escritores malditos de la  exposición que está organizando para la Biblioteca Nacional. La carne es una novela audaz y sorprendente, la más libre y personal de las que ha escrito Rosa Montero."
       },
       {
-        "id": 12,
+        "id": 14,
         "photo": "https://imagessl0.casadellibro.com/a/l/s5/60/9788494894060.webp",
         "title": "Los años oscuros",
         "author": "Eva Gallud Jurado",
@@ -122,7 +142,7 @@
         "sinopsis": "Los años oscuros es un relato intimista que ahonda en algunos miedos y  tensiones del mundo devorador en el que nos movemos. El paso del tiempo, la enfermedad o la construcción del deseo son parte de los temas sobre los que reflexiona o a los que se enfrenta la protagonista. Un padre ausente que reaparece y una mujer virtual que se materializa, saliendo del escenario de las redes sociales, serán el  detonante de una búsqueda de identidad que discurre entre bibliotecas, cafés y calles bulliciosas del centro de Madrid. Una historia donde las preguntas nunca realizadas quizá solo encuentren respuesta si se vuelve la mirada al interior."
       },
       {
-        "id": 13,
+        "id": 15,
         "photo": "https://imagessl9.casadellibro.com/a/l/s5/49/9788415472049.webp",
         "title": "El canto de las sirenas. Argumentos musicales",
         "author": "Eugenio Trías",
@@ -132,7 +152,7 @@
         "sinopsis": "La música es algo más que un fenómeno estético: es una gnosis, una auténtica vía de conocimiento que Eugenio Trías (author de una de las trayectorias filosóficas más sólidas que ha conocido nuestro país) ha reconstruido en un compendio de ensayos consagrados e insignes compositores, en un recorrido que va desde Monteverdi hasta las últimas vanguardias musicales. Los misterios gloriosos de Bach, la dualidad de lo trágico y lo cómico en Mozart, los grandes relatos de Haydn, el estilo heroico de Beethoven, el concepto de la obra total de Wagner, el espíritu creador de Mahler, la nueva teología musical de Schönberg, la noche eterna de Béla Bartók, los sacrificios de Stravinski, el panteísmo sonoro en Cage o la arquitectura musical de Xenakis, comparecen en estas pages para revelar sus claves internas, sus relaciones, su antagonismos y similitudes, sus oposiciones y especificidades. El resultado es no sólo una excelente colección de ensayos individuales donde podemos apreciar a los grandes compositores bajo una luz distinta, sino también un argumento narrativo: una apasionante historia de las ideas a través de la música. O como el mismo author sugiere, tal vez El canto de las sirenas constituya el Gran Relato que algunos de los mejores músicos occidentales han ido escribiendo a lo largo de los últimos cuatrocientos años. La música es algo más que un fenómeno estético: es una gnosis, una auténtica vía de conocimiento que Eugenio Trías (author de una de las trayectorias filosóficas más sólidas que ha conocido nuestro país) ha reconstruido en un compendio de ensayos consagrados e insignes compositores, en un recorrido que va desde Monteverdi hasta las últimas vanguardias musicales. Los misterios gloriosos de Bach, la dualidad de lo trágico y lo cómico en Mozart, los grandes relatos de Haydn, el estilo heroico de Beethoven, el concepto de la obra total de Wagner, el espíritu creador de Mahler, la nueva teología musical de Schönberg, la noche eterna de Béla Bartók, los sacrificios de Stravinski, el panteísmo sonoro en Cage o la arquitectura musical de Xenakis, comparecen en estas pages para revelar sus claves internas, sus relaciones, su antagonismos y similitudes, sus oposiciones y especificidades. El resultado es no sólo una excelente colección de ensayos individuales donde podemos apreciar a los grandes compositores bajo una luz distinta, sino también un argumento narrativo: una apasionante historia de las ideas a través de la música. O como el mismo author sugiere, tal vez El canto de las sirenas constituya el Gran Relato que algunos de los mejores músicos occidentales han ido escribiendo a lo largo de los últimos cuatrocientos años."
       },
       {
-        "id": 14,
+        "id": 16,
         "photo": "https://m.media-amazon.com/images/I/718ZuVoXepL._SY466_.jpg",
         "title": "De Madonna al canto gregoriano: una muy breve introducción a la música",
         "author": "Nicholas Cook",
@@ -142,7 +162,7 @@
         "sinopsis": "Lejos de escribir una introducción a la música convencional, con un énfasis especial en sus rudimentos técnicos para los no iniciados, NICHOLAS COOK aborda su libro desde la perspectiva de los distintos valores -personales, culturales, sociales- que ha encarnado y que encarna la música, no sólo la conocida tradicionalmente como 'clásica', sino también la que responde a otros lenguajes y estilos más modernos, y sin duda más presentes en nuestras vidas, como el jazz, el pop o el rock. En DE MADONNA AL CANTO GREGORIANO, una exposición clara y brillante en la que tienen cabida desde la música tradicional china a la Novena Sinfonía de Beethoven o las Spice Girls, Cook reflexiona en voz alta sobre los significados que tienen y han tenido a lo largo de la historia, y sobre todo hoy, uno y otro tipo de música, indagando en sus porqués. Cada uno de los capítulos se convierte, así, en una invitación constante a la reflexión sobre temas que a todos nos atañen."
       },
       {
-        "id": 15,
+        "id": 17,
         "photo": "https://static.serlogal.com/imagenes_big/9788475/978847584230.JPG",
         "title": "El camarín de Vinilio: gays en el mundo de la música",
         "author": "Boce Hadleigh",
@@ -152,7 +172,7 @@
         "sinopsis": "El camarín de Vinilio de Bozé Hadleigh gira en torno a la música y quienes la hacen, sobre las películas y las obras teatrales adjetivizadas como musicales, sobre los compositores y cantantes, la música clásica y la danza en un contexto histórico y social. Hadleigh -author de Conversaciones privadas y de Hispànic Hollywood, libros en torno al mundo del cine- nos explica en este libro con un subtitle bastante elocuente: Gays en el mundo de la música que «el mundo de la música es más vasto, más libre y más real que el de la pantalla. Los hombres ostensiblemente heterosexuales, o posiblemente bisexuales, pueden permitirse toda clase de ademanes, trajes, accesorios, poses y proclamas en público», sin embargo, añade «el secreto de los gay en la música no ha permitido que la puerta del camarín nos descubra sino una visión superficial de la diversa joyería  que guarda en su interior. En una indústria que adora e incluso hace ostentación de sus extremos, la variante sexual todavía lleva un estigma»; y desde el s. XVII hasta nuestros días nace un recorrido intencionado de las elecciones (y/o condiciones) afectivas (y/o artísticas) de los músicos y gente del espectáculo musical para a continuación aclarar que no «trata de establecer quién es quién ni quién amó a quién, ni se recogen fragmentos a veces cruciales que fueron soslayados en retratos anteriores gobernados por el prejuicio»."
       },
       {
-        "id": 16,
+        "id": 18,
         "photo": "https://m.media-amazon.com/images/I/71e3uO3mz6L._SY466_.jpg",
         "title": "Mandíbula",
         "author": "Mónica Ojeda Franco",
@@ -162,7 +182,7 @@
         "sinopsis": "Fernanda Montero, una adolescente fanática del horror y de las creepypastas (historias de terror que circulan por internet), despierta  maniatada en una cabaña oscura en medio del bosque. Su secuestradora, lejos de ser una desconocida, es su profesora de Lengua y Literatura: una mujer joven, marcada por un pasado violento, a quien Fernanda y sus amigas han atormentado durante meses en un colegio de élite Opus Dei. Los motivos del secuestro se irán revelando como algo mucho más complejo y duro de digerir que el bullying a una maestra: una traición inesperada y vinculada a un edificio abandonado, un culto secreto inspirado en creepypastas y un amor juvenil."
       },
       {
-        "id": 17,
+        "id": 19,
         "photo": "https://imagessl9.casadellibro.com/a/l/s7/79/9788499082479.webp",
         "title": "El nombre del viento (Crónica del asesino de reyes 1)",
         "author": "Patrick Rothfuss",
@@ -172,7 +192,7 @@
         "sinopsis": "En una posada en tierra de nadie, un hombre se dispone a relatar, por primera vez, la auténtica historia de su vida. Una historia que únicamente él conoce y que ha quedado diluida tras los rumores, las conjeturas y los cuentos de taberna que le han convertido en un personaje legendario a quien todos daban ya por muerto: Kvothe... músico, mendigo, ladrón, estudiante, mago, héroe y asesino. Ahora va a revelar la verdad sobre sí mismo. Y para ello debe empezar por el principio: su infancia en una troupe de artistas itinerantes, los años malviviendo como un ladronzuelo en las calles de una gran ciudad y su llegada a una universidad donde esperaba encontrar todas las respuestas que había estado buscando."
       },
       {
-        "id": 18,
+        "id": 20,
         "photo": "https://static.serlogal.com/imagenes_small/9788420/978842063100.jpg",
         "title": "Aloma",
         "author": "Mercè Rodoreda",
@@ -182,7 +202,7 @@
         "sinopsis": "A sus dieciocho años, Aloma es una joven solitaria y soñadora. Cuando su cuñado, Robert, llega de América para establecerse en la casa familiar de Barcelona por un tiempo, se verá sorprendida por sentimientos tan contradictorios como desconocidos para ella. Es esta una historia de amor desgraciado, la historia del fracaso de una relación compleja en un ambiente familiar desgastado, narrada a través de componentes líricos y simbólicos alrededor de la condición humana más profunda. Porque Aloma, desengañada y triste, deberá abandonar sus ideales adolescentes y aprender a plantar cara a la vida."
       },
       {
-        "id": 19,
+        "id": 21,
         "photo": "https://m.media-amazon.com/images/I/71mLeTm-CtL._SY466_.jpg",
         "title": "La caída",
         "author": "Albert Camus",
@@ -192,7 +212,7 @@
         "sinopsis": "La obra literaria, periodística y filosófica de Albert Camus (1913-1960) sirvió de orientación ética y de estímulo intelectual a la generación europea llegada a la madurez tras la Segunda Guerra Mundial y marcada por los horrores y sufrimientos de la contienda. Publicada en 1956, un año antes de que se le concediera el Premio Nobel, La caída fue tras «El extranjero» y «La peste», la tercera y última novela de Camus, quien reflejó en ella la desesperación del hombre contemporáneo, condenado a vivir en un mundo dominado por el absurdo y forzado a descubrir, tras las ilusiones de la felicidad y la virtud, la dureza de una realidad hostil.Traducción de Manuel de Lope"
       },
       {
-        "id": 20,
+        "id": 22,
         "photo": "https://m.media-amazon.com/images/I/41otZSNX8GL._SY445_SX342_.jpg",
         "title": "Sapiens: De animales a dioses. Breve historia de la humanidad",
         "author": "Yuval Noah Harari",
@@ -202,7 +222,7 @@
         "sinopsis": "Hace 70.000 añosal menos seis especies de humanos habitaban la Tierra. Hoy solo queda una, la nuestra:Homo Sapiens.¿Cómo logró nuestra especie imponerse en la lucha por la existencia? ¿Por qué nuestros ancestros recolectores se unieron para crear ciudades y reinos? ¿Cómo llegamos a creer en dioses, en naciones o en los derechos humanos; a confiar en el dinero, en los libros o en las leyes? ¿Cómo acabamos sometidos a la burocracia, a los horarios y al consumismo? ¿Y cómo será el mundo en los milenios venideros? En Sapiens, Yuval Noah Harari traza una breve historia de la humanidad, desde los primeros humanos que caminaron sobre la Tierra hasta los radicales y a veces devastadores avances de las tres grandes revoluciones que nuestra especie ha protagonizado: la cognitiva, la agrícola y la científica. A partir de hallazgos de disciplinas tan diversas como la biología, la antropología o la economía, Harari explora cómo las grandes corrientes de la historia han modelado nuestra sociedad, los animales y las plantas que nos rodean e incluso nuestras personalidades. ¿Hemos ganado en felicidad a medida que ha avanzado la historia? ¿Seremos capaces de liberar alguna vez nuestra conducta de la herencia del pasado? ¿Podemos hacer algo para influir en los siglos futuros? Audaz, ambicioso y provocador, este libro cuestiona todo lo que creíamos saber sobre el ser humano: nuestros orígenes, nuestras ideas, nuestras acciones, nuestro poder... y nuestro futuro."
       },
       {
-        "id": 21,
+        "id": 23,
         "photo": "https://libreria-alzofora.com/wp-content/uploads/2020/08/lobas-de-mar-74137.jpg",
         "title": "Lobas de mar",
         "author": "Zoé Valdés",
@@ -212,7 +232,7 @@
         "sinopsis": "El ansia de libertad y el deseo de vivir nuevas experiencias enseñó a las dos piratas más astutas que han conocido las aguas del Caribe cómo sobrevivir en ambientes exclusivamente masculinos y las llevó a la aventura más fascinante del siglo XVIII.Premio de Novela Fernando Lara 2003."
       },
       {
-        "id": 22,
+        "id": 24,
         "photo": "https://m.media-amazon.com/images/I/51d29f9CkKL._SY445_SX342_.jpg",
         "title": "Seis de cuervos (Bilogía Seis de Cuervos, 1)",
         "author": "Leigh Bardugo",
@@ -222,7 +242,7 @@
         "sinopsis": "Ketterdam:Un desbordante foco de comercio internacional donde todo se puede conseguir por el precio adecuado, como bien sabe el prodigio criminal Kaz Brekker. A Kaz le acaban de ofrecer la oportunidad de llevar a cabo un gran robo, un arriesgado golpe que podría hacerle más rico de lo que se jamás se ha atrevido a imaginar en sus sueños más salvajes. Pero no podrá llevarlo a cabo por sí solo: tendrá que reclutar a un peculiar equipo formado por un convicto, una espía, un pistolero, una Grisha, un ladrón y un fugitivo. Aunque ellos no lo saben, llegado el momento los miembros del grupo de Kaz serán los únicos capaces de salvar el mundo de la aniquilación total. Bueno, lo serán si no se matan entre ellos primero."
       },
       {
-        "id": 23,
+        "id": 25,
         "photo": "https://m.media-amazon.com/images/I/51OA-0EhyUS._SY445_SX342_.jpg",
         "title": "Reino de ladrones (Bilogía Seis de Cuervos, 2)",
         "author": "Leigh Bardugo",
@@ -232,7 +252,7 @@
         "sinopsis": "Kaz Brekker y su equipo han dado un golpe tan temerario que ni siquiera ellos pensaban sobrevivir. Pero en lugar de conseguir una buena recompensa, a su regreso de la Corte de Hielo tienen que seguir luchando por sus vidas. Traicionado y debilitado, el equipo está corto de recursos, aliados y esperanza. Mientras poderosas fuerzas de todo el mundo llegan a Ketterdam para desentrañar el secreto de la peligrosa droga conocida como jurda parem, viejos rivales y nuevos enemigos emergen para desafiar el ingenio de Kaz y poner a prueba las frágiles lealtades del equipo. Una guerra se adueñará de las oscuras y tortuosas calles de la ciudad, una batalla por la venganza y la redención que decidirá el destino del mundo Grisha."
       },
       {
-        "id": 24,
+        "id": 26,
         "photo": "https://imagessl6.casadellibro.com/a/l/s5/66/9780141365466.webp",
         "title": "Matilda",
         "author": "Roald Dahl",
@@ -242,7 +262,7 @@
         "sinopsis": "Matilda Wormwood's father thinks she's a little scab. Matilda's mother spends all afternoon playing bingo. And Matilda's headmistress Miss Trunchbull? Well, she's the worst of all. She is a big bully, who thinks all her pupils are rotten and locks them in the dreaded Chokey. As for Matilda, she's an extraordinary little girl with a magical mind - and now she's had enough. So all these grown-ups had better watch out, because Matilda is going to teach them a lesson they'll never forget."
       },
       {
-        "id": 25,
+        "id": 27,
         "photo": "https://m.media-amazon.com/images/I/51u3jfPTX6L._SY466_.jpg",
         "title": "Grenzenlos weiblich in barocken und antiken Darstellungen",
         "author": "VVAA",

@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { LuHeadphones } from "react-icons/lu"; //icono
-import { LuHeart } from "react-icons/lu";
-import { LuLogIn } from "react-icons/lu";
+import { LuHeadphones, LuHeart, LuLogIn } from "react-icons/lu"; //icono
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container">
@@ -24,11 +22,6 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" href="/login">
-                <LuLogIn /> Login
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link" href="/favoritos">
                 <LuHeart /> Favoritos
               </Link>
@@ -39,10 +32,15 @@ function Navbar() {
                 Spotify
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/login">
+                <LuLogIn /> Login
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   );
 }
-export default Navbar;
+

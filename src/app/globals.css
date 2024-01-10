@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities; */
 
+:root {
+    --color-primary: #d23625;
+    --color-secondary: #eaeaea;
+    --color-tercero: #446de0;
+   
+  }
+
 .logo {
     max-width: 50px;
     margin: 20px;
 }
+
 

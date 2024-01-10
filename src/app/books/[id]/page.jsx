@@ -1,6 +1,6 @@
 
 
-function bookPage() {
+export default function bookPage() {
   return (
   <div>
     <h1>User Detail</h1>
@@ -8,4 +8,4 @@ function bookPage() {
   )
 }
 
-export default bookPage;
+
