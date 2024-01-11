@@ -1,31 +1,46 @@
-// src/app/favoritos/page.jsx
+'use client'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Carousel } from 'react-bootstrap'; // Asegúrate de importar Carousel desde react-bootstrap
+import { useEffect, useState } from 'react';
 
-import React from 'react';
-import Favoritos from '../../components/Favoritos';
 
-const FavoritosPage = ({ favoriteBooks }) => {
-  return (
-    <div>
-      <h1>Tus Libros Favoritos</h1>
-      <Favoritos books={favoriteBooks} />
-    </div>
-  );
-};
-
-FavoritosPage.getInitialProps = async () => {
+async function fetchData() {
   try {
-    // Leer el archivo JSON de la carpeta 'public'
-    const res = await fetch('/books.json');
-    const booksData = await res.json();
+    const response = await fetch('/books.json');
+    const data = await response.json();
 
-    // Seleccionar los 5 primeros libros como favoritos
-    const favoriteBooks = booksData.slice(0, 5);
+    // Extraer solo las URLs de las imágenes
+    const imagenesDeLibros = data.books.map(libro => libro.photo);
 
-    return { favoriteBooks };
+    return imagenesDeLibros;
   } catch (error) {
-    console.error('Error fetching data:', error);
-    return { favoriteBooks: [] };
+    console.error('Error al obtener datos:', error);
+    return [];
   }
-};
+}
 
-export default FavoritosPage;
+function MyCarousel() {
+  const [imagenesDeLibros, setImagenesDeLibros] = useState([]);
+
+  useEffect(() => {
+    const obtenerDatos = async () => {
+      const imagenes = await fetchData();
+      setImagenesDeLibros(imagenes);
+    };
+
+    obtenerDatos();
+  }, []);
+
+  
+  return (
+    <Carousel>
+      {imagenesDeLibros.map((imagen, index) => (
+        <Carousel.Item key={index}>
+          <img className="d-block w-100" src={imagen} alt={`Libro ${index + 1}`} />
+        </Carousel.Item>
+      ))}
+    </Carousel>
+  );
+}
+
+export default MyCarousel;

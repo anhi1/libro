@@ -1,6 +1,3 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
 
 :root {
     --color-primary: #d23625;
@@ -12,6 +9,13 @@
 .logo {
     max-width: 50px;
     margin: 20px;
+}
+
+.carousel {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  width: 300px;
 }
 
 

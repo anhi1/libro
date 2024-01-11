@@ -25,3 +25,8 @@ npm run dev
    ```
    npm install react-icons --save
    ```
+   
+4. React bootstrap
+```
+npm install react-bootstrap bootstrap
+```
