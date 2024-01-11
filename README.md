@@ -30,3 +30,7 @@ npm run dev
 ```
 npm install react-bootstrap bootstrap
 ```
+5. Goggle Captcha 
+```
+import ReCAPTCHA from "react-google-recaptcha";
+```
