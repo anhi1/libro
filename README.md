@@ -32,5 +32,5 @@ npm install react-bootstrap bootstrap
 ```
 5. Goggle Captcha 
 ```
-import ReCAPTCHA from "react-google-recaptcha";
+npm install react-google-recaptcha
 ```
