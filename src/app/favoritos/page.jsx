@@ -1,20 +1,16 @@
-'use client'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'react-bootstrap'; // Asegúrate de importar Carousel desde react-bootstrap
-import { useEffect, useState } from 'react';
-
+"use client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useEffect, useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
 
 async function fetchData() {
   try {
-    const response = await fetch('/books.json');
+    const response = await fetch("http://localhost:3000/books");
     const data = await response.json();
-
-    // Extraer solo las URLs de las imágenes
-    const imagenesDeLibros = data.books.map(libro => libro.photo);
-
+    const imagenesDeLibros = data.map((libro) => libro.photo);
     return imagenesDeLibros;
   } catch (error) {
-    console.error('Error al obtener datos:', error);
+    console.error("Error al obtener datos:", error);
     return [];
   }
 }
@@ -24,20 +20,29 @@ function MyCarousel() {
 
   useEffect(() => {
     const obtenerDatos = async () => {
-      const imagenes = await fetchData();
-      setImagenesDeLibros(imagenes);
+      try {
+        const imagenes = await fetchData();
+        console.log(imagenes); // Verifica las URL de las imágenes en la consola
+        setImagenesDeLibros(imagenes);
+      } catch (error) {
+        console.error("Error al obtener datos:", error);
+      }
     };
 
     obtenerDatos();
   }, []);
 
-  
   return (
-    <Carousel>
+    <Carousel data-bs-theme="dark">
       {imagenesDeLibros.map((imagen, index) => (
-        <Carousel.Item key={index}>
-          <img className="d-block w-100" src={imagen} alt={`Libro ${index + 1}`} />
-        </Carousel.Item>
+        <div key={index} className="carousel-item">
+          <img
+            className="d-block w-100"
+            src={imagen}
+            alt={`Libro ${index + 1}`}
+            style={{ height: "500px", objectFit: "cover", width: "100%" }}
+          />
+        </div>
       ))}
     </Carousel>
   );

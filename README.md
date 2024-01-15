@@ -34,3 +34,11 @@ npm install react-bootstrap bootstrap
 ```
 npm install react-google-recaptcha
 ```
+
+6. Json server installion
+```
+npm install -g json-server
+
+json-server --watch db.json 
+
+```
