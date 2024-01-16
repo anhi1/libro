@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { montserrat } from "./font";
 import Footer from "../components/Footer";
+import ThemeContextProvider, { ThemeContext } from "./context/ThemeContext";
 
 export const metadata = {
   title: "Create Next App",
@@ -16,9 +17,13 @@ export default function RootLayout({ children }) {
         className={`${montserrat.className} antialiased`}
         style={{ background: "var(--color-secondary)" }}
       >
-        <Navbar />
-        <div className="container pt-4">{children}</div>
-        <Footer />
+        <ThemeContextProvider>
+          <>
+            <Navbar />
+            <div className="container pt-4">{children}</div>
+            <Footer />
+          </>
+        </ThemeContextProvider>
       </body>
     </html>
   );

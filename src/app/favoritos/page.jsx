@@ -5,7 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 async function fetchData() {
   try {
-    const response = await fetch("http://localhost:3000/books");
+    const response = await fetch("https://json-book.vercel.app/books");
     const data = await response.json();
     const imagenesDeLibros = data.map((libro) => libro.photo);
     return imagenesDeLibros;

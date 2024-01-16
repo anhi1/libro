@@ -1,9 +1,27 @@
+"use client";
+import React, { useState, useContext } from "react";
 import Link from "next/link";
-import { LuHeadphones, LuHeart, LuLogIn } from "react-icons/lu"; //icono
-
+import {
+  LuHeadphones,
+  LuHeart,
+  LuLogIn,
+  LuMoon,
+  LuSun
+} from "react-icons/lu";
+import Image from "next/image";
+import {ThemeContext} from "@/app/context/ThemeContext";
 export default function Navbar() {
+  const {
+    lang,
+    darkMode,
+    setDarkMode,
+    toggleDarkMode,
+    darkModeButton,
+    lightModeButton
+  } = useContext(ThemeContext);
+
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className={`${darkMode} navbar navbar-expand-lg bg-body-tertiary`}>
       <div className="container">
         <Link className="navbar-brand" href="/">
           <img className="logo" alt="Logo" src="./logo.svg" />
@@ -19,6 +37,27 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
+        <button className={darkModeButton} onClick={toggleDarkMode}>
+          <LuMoon
+            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+            alt="moon"
+            width={180}
+            height={37}
+            priority
+          />
+        </button>
+
+        <button className={lightModeButton} onClick={toggleDarkMode}>
+          <LuSun
+            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] "
+            alt="sun"
+            width={180}
+            height={37}
+            priority
+          />
+        </button>
+
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
@@ -43,4 +82,3 @@ export default function Navbar() {
     </nav>
   );
 }
-

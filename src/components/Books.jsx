@@ -1,18 +1,23 @@
-'use client'
+'use client';
 import { useRouter } from "next/navigation";
+import {ThemeContext} from "@/app/context/ThemeContext";
+import { useContext } from "react";
 
-export default function Books({ books }) {
-  //propiedad
+
+export default function Books ({books}) {
+  const {
+    darkMode
+  } = useContext(ThemeContext);
   const router = useRouter();
   return (
-    <div className="d-flex flex-wrap justify-content-center align-items-center">
+    <div className= {`${darkMode} d-flex flex-wrap justify-content-center align-items-center`}>
       {books.map((book) => (
         <div key={book.id} className="card m-3" style={{ width: "400px" }}>
           <div className="row g-0">
             <div className="col-md-4 col-12">
-              <img
+              <img 
                 src={book.photo}
-                className="img-fluid rounded-start"
+                className= {`${darkMode == 'darkmode' ? 'aux-dark-mode': ''} img-fluid rounded-start`}
                 alt={book.photo}
                 style={{ height: "200px", objectFit: "cover", width: "100%" }}
               />

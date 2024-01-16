@@ -1,5 +1,5 @@
 async function getBook(id) {
-  const res = await fetch('http://localhost:3000/books/' + id)
+  const res = await fetch('https://json-book.vercel.app/books/' + id)
   const data = await res.json();
   return data
 }
