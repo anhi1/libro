@@ -1,16 +1,10 @@
 "use client";
 import Books from "@/components/Books";
-import { useState, useContext, useEffect } from "react";
-// import { ThemeContext } from "./context/ThemeContext";
+import { useState, useEffect } from "react";
 
-// async function getBooks() {
-//   const res = await fetch("http://localhost:3000/books");
-//   const data = await res.json();
-//   return data
-// }
 
 export default function BookList() {
-  // const books = getBooks();
+  
   const [ books, setBooks ] = useState([]);
   console.log (books)
   useEffect(() => {
@@ -23,8 +17,8 @@ export default function BookList() {
   }, []);
 
   return (
-    <>
+   
       <Books books={books} />
-    </>
+    
   );
 }

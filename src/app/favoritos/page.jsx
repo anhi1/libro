@@ -33,18 +33,20 @@ function MyCarousel() {
   }, []);
 
   return (
-    <Carousel data-bs-theme="dark">
-      {imagenesDeLibros.map((imagen, index) => (
-        <div key={index} className="carousel-item">
-          <img
-            className="d-block w-100"
-            src={imagen}
-            alt={`Libro ${index + 1}`}
-            style={{ height: "500px", objectFit: "cover", width: "100%" }}
-          />
-        </div>
-      ))}
-    </Carousel>
+    <div className="p-5">
+      <Carousel data-bs-theme="dark">
+        {imagenesDeLibros.map((imagen, index) => (
+          <div key={index} className="carousel-item">
+            <img
+              className="d-block w-100"
+              src={imagen}
+              alt={`Libro ${index + 1}`}
+              style={{ height: "500px", objectFit: "cover", width: "100%" }}
+            />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 }
 

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useContext } from "react";
+import { useContext } from "react";
 import Link from "next/link";
 import {
   LuHeadphones,
@@ -8,13 +8,11 @@ import {
   LuMoon,
   LuSun
 } from "react-icons/lu";
-import Image from "next/image";
+
 import {ThemeContext} from "@/app/context/ThemeContext";
 export default function Navbar() {
   const {
-    lang,
     darkMode,
-    setDarkMode,
     toggleDarkMode,
     darkModeButton,
     lightModeButton
@@ -43,8 +41,7 @@ export default function Navbar() {
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
             alt="moon"
             width={180}
-            height={37}
-            priority
+            height={37} 
           />
         </button>
 
@@ -54,7 +51,7 @@ export default function Navbar() {
             alt="sun"
             width={180}
             height={37}
-            priority
+            
           />
         </button>
 

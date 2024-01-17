@@ -10,7 +10,8 @@ export default function Books ({books}) {
   } = useContext(ThemeContext);
   const router = useRouter();
   return (
-    <div className= {`${darkMode} d-flex flex-wrap justify-content-center align-items-center`}>
+    <div className={`container-fluid ${darkMode} p-5`} style={{ background: "var(--color-secondary)"}}>
+    <div className="d-flex flex-wrap justify-content-center align-items-center" >
       {books.map((book) => (
         <div key={book.id} className="card m-3" style={{ width: "400px" }}>
           <div className="row g-0">
@@ -40,5 +41,6 @@ export default function Books ({books}) {
         </div>
       ))}
     </div>
+    </div> 
   );
 }

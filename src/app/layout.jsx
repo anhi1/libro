@@ -15,12 +15,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${montserrat.className} antialiased`}
-        style={{ background: "var(--color-secondary)" }}
+        
       >
         <ThemeContextProvider>
           <>
             <Navbar />
-            <div className="container pt-4">{children}</div>
+            <div>{children}</div>
             <Footer />
           </>
         </ThemeContextProvider>

@@ -35,7 +35,7 @@ npm install react-bootstrap bootstrap
 npm install react-google-recaptcha
 ```
 
-6. Json server installion
+6. Json server installion(REST API)
 ```
 npm install -g json-server
 
