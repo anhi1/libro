@@ -1,29 +1,16 @@
-"use client";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { useEffect, useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
-
-async function fetchData() {
-  try {
-    const response = await fetch("https://json-book.vercel.app/books");
-    const data = await response.json();
-    const imagenesDeLibros = data.map((libro) => libro.photo);
-    return imagenesDeLibros;
-  } catch (error) {
-    console.error("Error al obtener datos:", error);
-    return [];
-  }
-}
+"use client"
+import React, { useState, useEffect } from 'react';
+import { Carousel } from 'react-bootstrap';
 
 function MyCarousel() {
-  const [imagenesDeLibros, setImagenesDeLibros] = useState([]);
+  const [libros, setLibros] = useState([]);
 
   useEffect(() => {
     const obtenerDatos = async () => {
       try {
-        const imagenes = await fetchData();
-        console.log(imagenes); // Verifica las URL de las imágenes en la consola
-        setImagenesDeLibros(imagenes);
+        const response = await fetch("https://json-book.vercel.app/books");
+        const data = await response.json();
+        setLibros(data);
       } catch (error) {
         console.error("Error al obtener datos:", error);
       }
@@ -32,20 +19,44 @@ function MyCarousel() {
     obtenerDatos();
   }, []);
 
-  return (
-    <div className="p-5">
-      <Carousel data-bs-theme="dark">
-        {imagenesDeLibros.map((imagen, index) => (
-          <div key={index} className="carousel-item">
+  const generarCarrusel = (libros) => (
+    <Carousel data-bs-theme="dark">
+      {libros.map((libro, index) => (
+        <Carousel.Item key={index}>
+          <div className="d-flex justify-content-center">
             <img
               className="d-block w-100"
-              src={imagen}
+              src={libro.photo}
               alt={`Libro ${index + 1}`}
-              style={{ height: "500px", objectFit: "cover", width: "100%" }}
+              style={{ height: "500px", objectFit: "cover", width: "32%" }}
             />
           </div>
-        ))}
-      </Carousel>
+        </Carousel.Item>
+      ))}
+    </Carousel>
+  );
+
+  const dividirLibrosEnGrupos = (libros) => {
+    const grupos = [];
+    for (let i = 0; i < libros.length; i += 3) {
+      grupos.push(libros.slice(i, i + 3));
+    }
+    return grupos;
+  };
+
+  // Muestra solo los primeros 3 grupos de libros
+  const gruposDeLibros = dividirLibrosEnGrupos(libros).slice(0, 3);
+
+  const titulosCarruseles = ["Más Leídos", "Más Valorados", "Más Comentados"];
+
+  return (
+    <div className="p-5 d-flex justify-content-around">
+      {gruposDeLibros.map((grupo, index) => (
+        <div key={index}>
+          <h3>{titulosCarruseles[index]}</h3>
+          {generarCarrusel(grupo)}
+        </div>
+      ))}
     </div>
   );
 }

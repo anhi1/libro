@@ -1,14 +1,13 @@
-
 :root {
-    --color-primary: #d23625;
-    --color-secondary: #eaeaea;
-    --color-tercero: #446de0;
-   
-  }
+  --color-primary: #d23625;
+  --color-secondary: #eaeaea;
+  --color-tercero: #446de0;
+
+}
 
 .logo {
-    max-width: 50px;
-    margin: 20px;
+  max-width: 50px;
+  margin: 20px;
 }
 
 .carousel {
@@ -22,6 +21,7 @@
 .darkmode {
   filter: invert(1) hue-rotate(180deg);
 }
+
 .aux-dark-mode {
   filter: invert(1) hue-rotate(180deg);
 }

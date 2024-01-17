@@ -1,25 +1,21 @@
 "use client";
-import { useContext } from "react";
+import { useState, useContext } from "react";
 import Link from "next/link";
-import {
-  LuHeadphones,
-  LuHeart,
-  LuLogIn,
-  LuMoon,
-  LuSun
-} from "react-icons/lu";
+import { LuHeadphones, LuHeart, LuLogIn, LuMoon, LuSun } from "react-icons/lu";
 
-import {ThemeContext} from "@/app/context/ThemeContext";
+import { ThemeContext } from "@/app/context/ThemeContext";
+
 export default function Navbar() {
-  const {
-    darkMode,
-    toggleDarkMode,
-    darkModeButton,
-    lightModeButton
-  } = useContext(ThemeContext);
+  const { darkMode, toggleDarkMode } = useContext(ThemeContext);
+  const [iconType, setIconType] = useState("moon");
+
+  const toggleIcon = () => {
+    setIconType((prevType) => (prevType === "moon" ? "sun" : "moon"));
+    toggleDarkMode();
+  };
 
   return (
-    <nav className={`${darkMode} navbar navbar-expand-lg bg-body-tertiary`}>
+    <nav className={`navbar navbar-expand-lg bg-body-tertiary ${darkMode}`}>
       <div className="container">
         <Link className="navbar-brand" href="/">
           <img className="logo" alt="Logo" src="./logo.svg" />
@@ -36,23 +32,22 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <button className={darkModeButton} onClick={toggleDarkMode}>
-          <LuMoon
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-            alt="moon"
-            width={180}
-            height={37} 
-          />
-        </button>
-
-        <button className={lightModeButton} onClick={toggleDarkMode}>
-          <LuSun
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] "
-            alt="sun"
-            width={180}
-            height={37}
-            
-          />
+        <button className="darkModeButton" onClick={toggleIcon}>
+          {iconType === "moon" ? (
+            <LuMoon
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+              alt="moon"
+              width={180}
+              height={37}
+            />
+          ) : (
+            <LuSun
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+              alt="sun"
+              width={180}
+              height={37}
+            />
+          )}
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
