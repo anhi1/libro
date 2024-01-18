@@ -10,8 +10,11 @@ export default function Books({ books }) {
   } = useContext(ThemeContext);
   const router = useRouter();
   return (
+    <>
+    <img src='./fondo.svg' className={`container-fluid ${darkMode} d-flex flex-wrap justify-content-center align-items-center p-0`} />
     <div className={`container-fluid ${darkMode} p-5`} style={{ background: "var(--color-secondary)" }}>
       <div className="d-flex flex-wrap justify-content-center align-items-center" >
+        
         {books.map((book) => (
           <div key={book.id} className="card m-3" style={{ width: "400px" }}>
             <div className="row g-0">
@@ -27,7 +30,7 @@ export default function Books({ books }) {
                 <div className="card-body">
                   <div className="card-title">
                     <p><strong>Título: </strong>{book.title}</p>
-                    <button className="btn btn-light"
+                    <button className="btn btn-light" style={{ background: '#8aa9ff', color:'white'}}
                       onClick={() => {
                         router.push(`/book/${book.id}`);
                       }}
@@ -42,5 +45,6 @@ export default function Books({ books }) {
         ))}
       </div>
     </div>
+  </>
   );
 }

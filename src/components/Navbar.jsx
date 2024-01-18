@@ -2,7 +2,6 @@
 import { useState, useContext } from "react";
 import Link from "next/link";
 import { LuHeadphones, LuHeart, LuLogIn, LuMoon, LuSun } from "react-icons/lu";
-
 import { ThemeContext } from "@/app/context/ThemeContext";
 
 export default function Navbar() {
