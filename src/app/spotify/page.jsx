@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import  'dotenv/config'
 
 export default function Spotify() {
   const [cancion, setCancion] = useState("");
@@ -12,7 +13,7 @@ export default function Spotify() {
         const options = {
           method: "GET",
           headers: {
-            "X-RapidAPI-Key": "710bf0b17bmsha6d39e9cafefccdp1b03c7jsnddc034329300",
+            "X-RapidAPI-Key": process.env.SPOTIFY_API_KEY,
             "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
           },
         };
@@ -46,7 +47,7 @@ export default function Spotify() {
       const options = {
         method: "GET",
         headers: {
-          "X-RapidAPI-Key": "710bf0b17bmsha6d39e9cafefccdp1b03c7jsnddc034329300",
+          "X-RapidAPI-Key": process.env.SPOTIFY_API_KEY,
           "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
         },
       };
@@ -64,6 +65,7 @@ export default function Spotify() {
     <div className="container mx-auto text-center">
       <h1>Elige qué escuchar</h1>
       <div className="p-5 d-flex justify-content-center">
+        
         <form onSubmit={handleSearch}>
           <input
             type="text"
